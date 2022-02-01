@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+header nav,
+main {
+	/* max-width: 1536px; */
+}
+
+::-webkit-scrollbar {
+	width: 0.675rem;
+}
+
+::-webkit-scrollbar-thumb {
+	@apply rounded-md;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb:active {
+	background: #004c4269;
+}
