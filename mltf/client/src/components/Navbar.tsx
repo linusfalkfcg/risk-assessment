@@ -1,7 +1,3 @@
-interface Props {
-	maxWidth: string
-}
-
 const Navbar = () => {
 	return (
 		<nav className='px-8 w-full h-14 flex items-center'>
